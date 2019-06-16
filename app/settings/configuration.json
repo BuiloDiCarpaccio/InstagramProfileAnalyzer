@@ -1,0 +1,20 @@
+{
+    "DATETIME": {
+        "FORMAT":               "%Y-%m-%d %H:%M:%S",
+        "LIMIT":                "1019-05-01 00:00:00",
+        "REFRESH":              {"hours": 24}
+    },
+    "PATH": {
+        "CACHE_DATA":           "app/cache/data.json",
+        "CACHE_INFORMATION":    "app/cache/information.json",
+        "USERNAME":             "app/settings/username.json"
+    },
+    "URL": {
+        "INSTAGRAM":            "https://www.instagram.com",
+        "JSON_POST":            "https://www.instagram.com/p/{}/?__a=1",
+        "JSON_PRIMARY":         "https://www.instagram.com/{}/?__a=1",
+        "POST":                 "https://www.instagram.com/p/{}/",
+        "PRIMARY":              "https://www.instagram.com/{}/",
+        "TIMELINE":             "https://www.instagram.com/graphql/query/?query_hash=f2405b236d85e8296cf30347c9f08c2a&variables={{\"id\":\"{}\",\"first\":12,\"after\":\"{}\"}}"
+    }
+}
